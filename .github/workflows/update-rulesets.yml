@@ -1,0 +1,107 @@
+name: Update tracker rule sets
+
+on:
+  # Upstream lists are observed to refresh around 02:09 GMT+3.
+  # Check ten minutes later: 02:20 GMT+3 = 23:20 UTC.
+  schedule:
+    - cron: "20 23 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Rebuild all rule sets even if upstream list contents are unchanged
+        required: false
+        default: false
+        type: boolean
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/**"
+      - "tests/**"
+      - ".github/workflows/update-rulesets.yml"
+      - "README.md"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tracker-rulesets-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    name: Sync and compile all tracker lists
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out this repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch upstream tracker lists
+        run: |
+          git clone --depth 1 --branch master \
+            https://github.com/ngosang/trackerslist.git \
+            "$RUNNER_TEMP/ngosang-trackerslist"
+
+      - name: Check whether any upstream list changed
+        id: check
+        shell: bash
+        run: |
+          FORCE_FLAG=""
+          if [[ "$GITHUB_EVENT_NAME" == "push" ]]; then
+            FORCE_FLAG="--force"
+          elif [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" && "${{ inputs.force }}" == "true" ]]; then
+            FORCE_FLAG="--force"
+          fi
+
+          python scripts/check_upstream.py \
+            --upstream-dir "$RUNNER_TEMP/ngosang-trackerslist" \
+            --published-sources sources \
+            --github-output "$GITHUB_OUTPUT" \
+            $FORCE_FLAG
+
+      - name: Set up Go (only when a rebuild is needed)
+        if: steps.check.outputs.changed == 'true'
+        uses: actions/setup-go@v5
+        with:
+          go-version: stable
+
+      - name: Install Sing-box compiler
+        if: steps.check.outputs.changed == 'true'
+        shell: bash
+        run: |
+          go install github.com/sagernet/sing-box/cmd/sing-box@latest
+          echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
+
+      - name: Generate JSON and compile every SRS
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          python scripts/build_rulesets.py \
+            --upstream-dir "$RUNNER_TEMP/ngosang-trackerslist" \
+            --upstream-sha "${{ steps.check.outputs.upstream_sha }}"
+
+      - name: Publish updated files
+        if: steps.check.outputs.changed == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sources/ source-json/ rulesets/ manifest.json
+
+          if git diff --cached --quiet; then
+            echo "Generated output is unchanged; nothing to commit."
+            exit 0
+          fi
+
+          git commit -m "Update tracker rule sets"
+          git push
+
+      - name: Report no-op poll
+        if: steps.check.outputs.changed != 'true'
+        run: echo "Upstream tracker lists have not changed; no compilation was needed."
