@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "004430.xyz",
+        "ht.therarbg.to",
+        "open.ftorrent.com",
+        "t.213891.xyz",
+        "t1.hloli.org",
+        "tr.nyacat.pw",
+        "track3r.site",
+        "tracker.7471.top",
+        "tracker.aburaya.live",
+        "tracker.foreverpirates.co",
+        "tracker.nekomi.cn",
+        "tracker.pmman.tech",
+        "tracker.zhuqiy.com"
+      ],
+      "network": [
+        "tcp"
+      ],
+      "port": [
+        443
+      ]
+    }
+  ]
+}

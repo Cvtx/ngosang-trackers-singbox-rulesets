@@ -1,0 +1,191 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "martin-gebhardt.eu"
+      ],
+      "network": [
+        "udp"
+      ],
+      "port": [
+        25
+      ]
+    },
+    {
+      "domain": [
+        "open.stealth.si",
+        "retracker01-msk-virt.corbina.net",
+        "tracker-udp.gbitt.info",
+        "tracker.corpscorp.online",
+        "tracker.torrents.observer",
+        "tracker2.dler.org"
+      ],
+      "network": [
+        "udp"
+      ],
+      "port": [
+        80
+      ]
+    },
+    {
+      "domain": [
+        "open.ftorrent.com"
+      ],
+      "network": [
+        "udp"
+      ],
+      "port": [
+        443
+      ]
+    },
+    {
+      "domain": [
+        "tracker.torrent.eu.org"
+      ],
+      "network": [
+        "udp"
+      ],
+      "port": [
+        451
+      ]
+    },
+    {
+      "domain": [
+        "t1.itrus.su",
+        "t2.itrus.su"
+      ],
+      "network": [
+        "udp"
+      ],
+      "port": [
+        1212
+      ]
+    },
+    {
+      "domain": [
+        "bittorrent-tracker.e-n-c-r-y-p-t.net",
+        "kolankoalastree.newtrackon.co.nz",
+        "open.demonii.com",
+        "open.tracker.cl",
+        "tracker.004430.xyz",
+        "tracker.bittor.pw",
+        "tracker.okade.pro",
+        "tracker.opentrackr.org"
+      ],
+      "network": [
+        "udp"
+      ],
+      "port": [
+        1337
+      ]
+    },
+    {
+      "domain": [
+        "tracker.evergarden.uk"
+      ],
+      "network": [
+        "udp"
+      ],
+      "port": [
+        1914
+      ]
+    },
+    {
+      "domain": [
+        "tracker.ducks.party"
+      ],
+      "network": [
+        "udp"
+      ],
+      "port": [
+        1984
+      ]
+    },
+    {
+      "domain": [
+        "tracker.bluefrog.pw"
+      ],
+      "network": [
+        "udp"
+      ],
+      "port": [
+        2710
+      ]
+    },
+    {
+      "domain": [
+        "tr3.ysagin.top"
+      ],
+      "network": [
+        "udp"
+      ],
+      "port": [
+        2715
+      ]
+    },
+    {
+      "domain": [
+        "admin.52ywp.com",
+        "evan.im",
+        "exodus.desync.com",
+        "explodie.org",
+        "ipv4announce.sktorrent.eu",
+        "mail.segso.net",
+        "ns575949.ip-51-222-82.net",
+        "opentracker.lain.moscow",
+        "seedpeer.net",
+        "t.overflow.biz",
+        "tr4ck3r.duckdns.org",
+        "tracker.cn.nyaa.net",
+        "tracker.dler.org",
+        "tracker.edkj.club",
+        "tracker.farted.net",
+        "tracker.filemail.com",
+        "tracker.gmi.gd",
+        "tracker.ilibr.org",
+        "tracker.ixuexi.click",
+        "tracker.k.vu",
+        "tracker.nyaa.net",
+        "tracker.nyaa.vc",
+        "tracker.opentrackr.com",
+        "tracker.peerfect.org",
+        "tracker.playground.ru",
+        "tracker.qu.ax",
+        "tracker.skynetcloud.site",
+        "tracker.t-rb.org",
+        "tracker.theoks.net",
+        "tracker.wildkat.net"
+      ],
+      "network": [
+        "udp"
+      ],
+      "port": [
+        6969
+      ]
+    },
+    {
+      "domain": [
+        "yuptracker-eu.gaijinent.com"
+      ],
+      "network": [
+        "udp"
+      ],
+      "port": [
+        27022
+      ]
+    },
+    {
+      "domain": [
+        "archive.torrentonline.cc",
+        "whybother.torrentonline.cc"
+      ],
+      "network": [
+        "udp"
+      ],
+      "port": [
+        42069
+      ]
+    }
+  ]
+}

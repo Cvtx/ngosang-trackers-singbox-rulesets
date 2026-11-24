@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "004430.xyz",
+        "1337.abcvg.info",
+        "tr.highstar.shop",
+        "tr.nyacat.pw",
+        "tracker.zhuqiy.dgj055.icu",
+        "tracker2.dler.org"
+      ],
+      "network": [
+        "tcp"
+      ],
+      "port": [
+        80
+      ]
+    },
+    {
+      "domain": [
+        "open.tracker.cl",
+        "tracker.okade.pro",
+        "tracker.opentrackr.org"
+      ],
+      "network": [
+        "tcp"
+      ],
+      "port": [
+        1337
+      ]
+    },
+    {
+      "domain": [
+        "opentracker.lain.moscow",
+        "t.overflow.biz",
+        "tracker.23794.top",
+        "tracker.dhitechnical.com",
+        "tracker.dler.com",
+        "tracker.dler.org",
+        "tracker.edkj.club",
+        "tracker.mywaifu.best",
+        "tracker.qu.ax",
+        "tracker.waaa.moe"
+      ],
+      "network": [
+        "tcp"
+      ],
+      "port": [
+        6969
+      ]
+    },
+    {
+      "domain": [
+        "tracker.renfei.net"
+      ],
+      "network": [
+        "tcp"
+      ],
+      "port": [
+        8080
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "tracker.dler.com",
+        "tracker.dler.org"
+      ],
+      "network": [
+        "tcp"
+      ],
+      "port": [
+        6969
+      ]
+    },
+    {
+      "domain": [
+        "tracker.renfei.net"
+      ],
+      "network": [
+        "tcp"
+      ],
+      "port": [
+        8080
+      ]
+    },
+    {
+      "domain": [
+        "open.stealth.si",
+        "retracker01-msk-virt.corbina.net",
+        "tracker-udp.gbitt.info",
+        "tracker.corpscorp.online",
+        "tracker2.dler.org"
+      ],
+      "network": [
+        "udp"
+      ],
+      "port": [
+        80
+      ]
+    },
+    {
+      "domain": [
+        "tracker.torrent.eu.org"
+      ],
+      "network": [
+        "udp"
+      ],
+      "port": [
+        451
+      ]
+    },
+    {
+      "domain": [
+        "open.demonii.com",
+        "open.tracker.cl",
+        "tracker.bittor.pw",
+        "tracker.opentrackr.org"
+      ],
+      "network": [
+        "udp"
+      ],
+      "port": [
+        1337
+      ]
+    },
+    {
+      "domain": [
+        "tracker.ducks.party"
+      ],
+      "network": [
+        "udp"
+      ],
+      "port": [
+        1984
+      ]
+    },
+    {
+      "domain": [
+        "exodus.desync.com",
+        "explodie.org",
+        "tracker.gmi.gd",
+        "tracker.nyaa.vc",
+        "tracker.qu.ax",
+        "tracker.theoks.net"
+      ],
+      "network": [
+        "udp"
+      ],
+      "port": [
+        6969
+      ]
+    }
+  ]
+}

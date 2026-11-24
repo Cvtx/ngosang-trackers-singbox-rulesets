@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "open.ftorrent.com",
+        "tracker.openwebtorrent.com",
+        "tracker.webtorrent.dev"
+      ],
+      "network": [
+        "tcp"
+      ],
+      "port": [
+        443
+      ]
+    },
+    {
+      "domain": [
+        "tracker.files.fm"
+      ],
+      "network": [
+        "tcp"
+      ],
+      "port": [
+        7073
+      ]
+    }
+  ]
+}

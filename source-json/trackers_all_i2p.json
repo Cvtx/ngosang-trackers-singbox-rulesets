@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "btrackrqkjp6kgelov5a3uxisis77ofxqt5nvy5hvvtoybjpmq4q.b32.i2p",
+        "kyu.i2p",
+        "opentracker.dg2.i2p",
+        "opentracker.fattydove.i2p",
+        "opentracker.r4sas.i2p",
+        "opentracker.skank.i2p",
+        "tracker.insulaocculta.i2p",
+        "trackergjmjgh6jfqjf5db6wagbgmfh3gp2msej7z4tpdjo5cuya.b32.i2p",
+        "yet-another-public-tracker.i2p"
+      ],
+      "network": [
+        "tcp"
+      ],
+      "port": [
+        80
+      ]
+    },
+    {
+      "domain": [
+        "freetracker.i2p"
+      ],
+      "network": [
+        "tcp"
+      ],
+      "port": [
+        7331
+      ]
+    },
+    {
+      "domain": [
+        "opentracker.dg2.i2p",
+        "opentracker.skank.i2p",
+        "tracker.insulaocculta.i2p"
+      ],
+      "network": [
+        "udp"
+      ],
+      "port": [
+        6969
+      ]
+    }
+  ]
+}

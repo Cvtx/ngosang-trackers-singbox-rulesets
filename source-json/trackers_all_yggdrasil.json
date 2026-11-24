@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "yggtracker.i2p.rocks"
+      ],
+      "network": [
+        "tcp"
+      ],
+      "port": [
+        80
+      ]
+    },
+    {
+      "domain": [
+        "tracker.ygg.okade.pro"
+      ],
+      "network": [
+        "tcp"
+      ],
+      "port": [
+        1337
+      ]
+    },
+    {
+      "domain": [
+        "tracker.ygg.okade.pro"
+      ],
+      "network": [
+        "udp"
+      ],
+      "port": [
+        1337
+      ]
+    }
+  ]
+}
