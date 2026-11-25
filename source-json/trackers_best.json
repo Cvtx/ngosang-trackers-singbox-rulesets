@@ -3,25 +3,13 @@
   "rules": [
     {
       "domain": [
-        "tracker.dler.com",
-        "tracker.dler.org"
+        "tracker.dler.com"
       ],
       "network": [
         "tcp"
       ],
       "port": [
         6969
-      ]
-    },
-    {
-      "domain": [
-        "tracker.renfei.net"
-      ],
-      "network": [
-        "tcp"
-      ],
-      "port": [
-        8080
       ]
     },
     {
@@ -77,12 +65,14 @@
     },
     {
       "domain": [
-        "exodus.desync.com",
         "explodie.org",
-        "tracker.gmi.gd",
+        "tracker.dler.org",
         "tracker.nyaa.vc",
+        "tracker.opentrackr.com",
+        "tracker.peerfect.org",
         "tracker.qu.ax",
-        "tracker.theoks.net"
+        "tracker.t-rb.org",
+        "tracker.tryhackx.org"
       ],
       "network": [
         "udp"

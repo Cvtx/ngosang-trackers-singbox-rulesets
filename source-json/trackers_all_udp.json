@@ -115,20 +115,8 @@
     },
     {
       "domain": [
-        "tr3.ysagin.top"
-      ],
-      "network": [
-        "udp"
-      ],
-      "port": [
-        2715
-      ]
-    },
-    {
-      "domain": [
         "admin.52ywp.com",
         "evan.im",
-        "exodus.desync.com",
         "explodie.org",
         "ipv4announce.sktorrent.eu",
         "mail.segso.net",
@@ -137,15 +125,15 @@
         "seedpeer.net",
         "t.overflow.biz",
         "tr4ck3r.duckdns.org",
+        "tracker.23794.top",
         "tracker.cn.nyaa.net",
         "tracker.dler.org",
         "tracker.edkj.club",
-        "tracker.farted.net",
         "tracker.filemail.com",
+        "tracker.flatuslifir.is",
         "tracker.gmi.gd",
         "tracker.ilibr.org",
         "tracker.ixuexi.click",
-        "tracker.k.vu",
         "tracker.nyaa.net",
         "tracker.nyaa.vc",
         "tracker.opentrackr.com",
@@ -154,7 +142,7 @@
         "tracker.qu.ax",
         "tracker.skynetcloud.site",
         "tracker.t-rb.org",
-        "tracker.theoks.net",
+        "tracker.tryhackx.org",
         "tracker.wildkat.net"
       ],
       "network": [
@@ -162,17 +150,6 @@
       ],
       "port": [
         6969
-      ]
-    },
-    {
-      "domain": [
-        "yuptracker-eu.gaijinent.com"
-      ],
-      "network": [
-        "udp"
-      ],
-      "port": [
-        27022
       ]
     },
     {
