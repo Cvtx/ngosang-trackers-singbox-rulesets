@@ -43,7 +43,6 @@
     {
       "domain": [
         "open.tracker.cl",
-        "tracker.bittor.pw",
         "tracker.okade.pro",
         "tracker.opentrackr.org"
       ],
@@ -199,8 +198,20 @@
     },
     {
       "domain": [
+        "tr3.ysagin.top"
+      ],
+      "network": [
+        "udp"
+      ],
+      "port": [
+        2715
+      ]
+    },
+    {
+      "domain": [
         "admin.52ywp.com",
         "evan.im",
+        "exodus.desync.com",
         "explodie.org",
         "ipv4announce.sktorrent.eu",
         "mail.segso.net",
@@ -209,7 +220,6 @@
         "seedpeer.net",
         "t.overflow.biz",
         "tr4ck3r.duckdns.org",
-        "tracker.23794.top",
         "tracker.cn.nyaa.net",
         "tracker.dler.org",
         "tracker.edkj.club",
@@ -226,6 +236,7 @@
         "tracker.qu.ax",
         "tracker.skynetcloud.site",
         "tracker.t-rb.org",
+        "tracker.theoks.net",
         "tracker.tryhackx.org",
         "tracker.wildkat.net"
       ],

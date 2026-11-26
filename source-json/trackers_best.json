@@ -15,7 +15,6 @@
     {
       "domain": [
         "open.stealth.si",
-        "retracker01-msk-virt.corbina.net",
         "tracker-udp.gbitt.info",
         "tracker.corpscorp.online",
         "tracker2.dler.org"
@@ -65,13 +64,14 @@
     },
     {
       "domain": [
+        "exodus.desync.com",
         "explodie.org",
         "tracker.dler.org",
+        "tracker.ixuexi.click",
         "tracker.nyaa.vc",
-        "tracker.opentrackr.com",
-        "tracker.peerfect.org",
         "tracker.qu.ax",
         "tracker.t-rb.org",
+        "tracker.theoks.net",
         "tracker.tryhackx.org"
       ],
       "network": [
