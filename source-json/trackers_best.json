@@ -3,7 +3,8 @@
   "rules": [
     {
       "domain": [
-        "tracker.dler.com"
+        "tracker.dler.com",
+        "tracker.qu.ax"
       ],
       "network": [
         "tcp"
@@ -14,7 +15,19 @@
     },
     {
       "domain": [
+        "tracker.renfei.net"
+      ],
+      "network": [
+        "tcp"
+      ],
+      "port": [
+        8080
+      ]
+    },
+    {
+      "domain": [
         "open.stealth.si",
+        "retracker01-msk-virt.corbina.net",
         "tracker-udp.gbitt.info",
         "tracker.corpscorp.online",
         "tracker2.dler.org"
@@ -67,11 +80,8 @@
         "exodus.desync.com",
         "explodie.org",
         "tracker.dler.org",
-        "tracker.ixuexi.click",
-        "tracker.nyaa.vc",
-        "tracker.qu.ax",
+        "tracker.peerfect.org",
         "tracker.t-rb.org",
-        "tracker.theoks.net",
         "tracker.tryhackx.org"
       ],
       "network": [
