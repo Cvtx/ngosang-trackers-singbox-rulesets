@@ -1,24 +1,24 @@
 {
   "source_repository": "https://github.com/ngosang/trackerslist",
   "source_branch": "master",
-  "source_commit": "83768beb75787fe3c7586cac344eb8b13970121b",
-  "generated_at_utc": "2026-11-27T05:05:43Z",
+  "source_commit": "aaef2930b37d18578a7da001325f69bd6d2f8c74",
+  "generated_at_utc": "2026-11-28T04:45:53Z",
   "sing_box_version": "sing-box version unknown\n\nEnvironment: go1.27.4 linux/amd64\nCGO: enabled",
   "lists": {
     "trackers_all.txt": {
       "valid_announce_urls": 85,
       "unique_domains": 73,
       "unique_ip_addresses": 0,
-      "compiled_rules": 15,
-      "source_sha256": "87f71ecd0ad7ee768c5a17c0829fa8ae267147f55dc96f5269c5326d9b78adec",
-      "srs_bytes": 1377
+      "compiled_rules": 16,
+      "source_sha256": "900c9e720e96e095db6f2e71ca489d2d052f48858ebdb7ee7d7ec0e147380e01",
+      "srs_bytes": 1387
     },
     "trackers_all_http.txt": {
       "valid_announce_urls": 20,
       "unique_domains": 20,
       "unique_ip_addresses": 0,
       "compiled_rules": 4,
-      "source_sha256": "57e88fc00da78bc3aee98da7d8a5a6b506b2cde4869202c148a496935766e03f",
+      "source_sha256": "ab80fb85f9ebe7d6996b88cbd7693c46ee0d234342af2116e8d9a90d714b3a1b",
       "srs_bytes": 389
     },
     "trackers_all_https.txt": {
@@ -26,7 +26,7 @@
       "unique_domains": 13,
       "unique_ip_addresses": 0,
       "compiled_rules": 1,
-      "source_sha256": "6c95283523d6848bab16e804e773a08b98297c862cac68fca4b3120670832ed9",
+      "source_sha256": "27f5c4f0103f81dd9f234cd81b0d7c5f2c67a04a95df689cd36ca964b5f36644",
       "srs_bytes": 237
     },
     "trackers_all_i2p.txt": {
@@ -38,20 +38,20 @@
       "srs_bytes": 362
     },
     "trackers_all_ip.txt": {
-      "valid_announce_urls": 59,
+      "valid_announce_urls": 62,
       "unique_domains": 0,
-      "unique_ip_addresses": 50,
-      "compiled_rules": 13,
-      "source_sha256": "04e97593939d0ab97173e6afb475e9cc0deaffdd4afcddedf4c8362ab7bab05f",
-      "srs_bytes": 426
+      "unique_ip_addresses": 53,
+      "compiled_rules": 14,
+      "source_sha256": "01744efa8731c380ea9f22e444aa9cf9301ba0b9ac6e9a1c200c773a265a9363",
+      "srs_bytes": 450
     },
     "trackers_all_udp.txt": {
       "valid_announce_urls": 52,
       "unique_domains": 52,
       "unique_ip_addresses": 0,
-      "compiled_rules": 10,
-      "source_sha256": "025684b5746f9249f96a3c69b5d9b0009a97de53c2f1485a3c35708c57a3f779",
-      "srs_bytes": 912
+      "compiled_rules": 11,
+      "source_sha256": "9e478d4c4d9a31b27ea7f22be55cf820221c76d6e109aad2353751fad3ee7b71",
+      "srs_bytes": 920
     },
     "trackers_all_ws.txt": {
       "valid_announce_urls": 3,
@@ -82,16 +82,16 @@
       "unique_domains": 20,
       "unique_ip_addresses": 0,
       "compiled_rules": 7,
-      "source_sha256": "c3477693cb0bff6c4715bf6722275c1cba0b6487d04336797edbe67e51b3090b",
-      "srs_bytes": 416
+      "source_sha256": "8cf542d24db1f60c84d1d037fb97a752bc4c4d6dc3bb964e6a5a48a631935f4f",
+      "srs_bytes": 409
     },
     "trackers_best_ip.txt": {
       "valid_announce_urls": 20,
       "unique_domains": 0,
-      "unique_ip_addresses": 18,
+      "unique_ip_addresses": 19,
       "compiled_rules": 6,
-      "source_sha256": "207c13678090fac9d75a8630e32eec7809e79006957d896e9bf2cf2d76a43a39",
-      "srs_bytes": 178
+      "source_sha256": "27ca9f4f9c03b03b31ff4e430c2057a0ca0b0d38f327fffe83ba694d5d88afed",
+      "srs_bytes": 182
     }
   }
 }

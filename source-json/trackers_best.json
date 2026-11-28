@@ -4,7 +4,7 @@
     {
       "domain": [
         "tracker.dler.com",
-        "tracker.qu.ax"
+        "tracker.dler.org"
       ],
       "network": [
         "tcp"
@@ -27,7 +27,6 @@
     {
       "domain": [
         "open.stealth.si",
-        "retracker01-msk-virt.corbina.net",
         "tracker-udp.gbitt.info",
         "tracker.corpscorp.online",
         "tracker2.dler.org"
@@ -79,10 +78,11 @@
       "domain": [
         "exodus.desync.com",
         "explodie.org",
-        "tracker.dler.org",
+        "tracker.nyaa.vc",
+        "tracker.opentrackr.com",
         "tracker.peerfect.org",
-        "tracker.t-rb.org",
-        "tracker.tryhackx.org"
+        "tracker.qu.ax",
+        "tracker.t-rb.org"
       ],
       "network": [
         "udp"

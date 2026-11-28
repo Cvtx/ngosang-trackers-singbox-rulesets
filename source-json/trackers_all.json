@@ -187,6 +187,17 @@
     },
     {
       "domain": [
+        "tr3.ysagin.top"
+      ],
+      "network": [
+        "udp"
+      ],
+      "port": [
+        2715
+      ]
+    },
+    {
+      "domain": [
         "admin.52ywp.com",
         "evan.im",
         "exodus.desync.com",
@@ -214,7 +225,6 @@
         "tracker.qu.ax",
         "tracker.skynetcloud.site",
         "tracker.t-rb.org",
-        "tracker.tryhackx.org",
         "tracker.wildkat.net"
       ],
       "network": [
